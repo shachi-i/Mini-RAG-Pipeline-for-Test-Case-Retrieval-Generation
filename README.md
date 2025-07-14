@@ -24,13 +24,3 @@ This project demonstrates a mini Retrieval-Augmented Generation (RAG) pipeline t
 - The user prompt is also embedded.
 - The top-k most similar test case embeddings are retrieved using vector similarity.
 
-### 3. Generation with LLM
-
-- The retrieved test cases are used as input context.
-- A prompt template is added:
-```text
-Based on the above examples, generate a new test case with this format:
-Title: <title>
-Steps:
-- Step 1
-- Step 2
